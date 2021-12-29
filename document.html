@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Java Documentation</title>
+</head>
+<body>
+    <nav id="nav-bar">
+        <header>Java Documentation</header>
+        <ul>
+          <li><a class="nav-link" href="#Print_Statements">Print Statements</a></li>
+          <li><a class="nav-link" href="#Comments">Comments</a></li>
+          <li><a class="nav-link" href="#Variables">Variables</a></li>
+          <li><a class="nav-link" href="#Manipulating_Variables">Manipulating Variables</a></li>
+          <li><a class="nav-link" href="#Classes">Classes</a></li>
+        </ul>
+      </nav>
+        <main id="main-doc">
+        <section class="main-section" id="Print_Statements">
+          <header>Print Statements</header>
+          <article>
+            <p>
+              Print statements output information to the screen (also referred to as the output terminal. 
+            </p>
+              <p>
+                <code>System</code> is a built-in Java class that contains useful tools for our programs. <code>out</code> is short for “output”. <code>println</code> is short for “print line”.
+          </p>
+          </article>
+        </section>
+        
+        <section class="main-section" id="Comments">
+          <header>Comments</header>
+          <article>
+            <p>
+              Code is also read by people, and we want our intentions to be clear to humans just like we want our instructions to be clear to the computer.
+            </p>
+            <p>
+              We can also write comments, notes to human readers of our code. These comments are not executed, so there’s no need for valid syntax within a comment.
+            </p>
+            <ul>
+              <li>When comments are short we use the single-line syntax: <code>//</code>.</li>
+                <code class="comment-code">// calculate customer satisfaction rating</code>
+          <li>When comments are long we use the multi-line syntax: <code>/*</code> and <code>*/.</code></li>
+            <code class="comment-code">/*
+      We chose to store information across multiple databases to
+      minimize the possibility of data loss. We'll need to be careful
+      to make sure it does not go out of sync!
+              */</code>
+            </ul>
+          </article>
+        </section>
+        
+        <section class="main-section" id="Variables">
+          <header>Variables</header>
+          <article>
+            <p>
+              Creating and filling variables is a powerful concept that allows us to keep track of all kinds of data in our program.
+            </p>
+            <p>
+              We use several different data types to store variables.
+            </p>
+            <ul>
+            <li><code>int</code>, which stores whole numbers.</li>
+            <li><code>double</code>, which stores bigger whole numbers and decimal numbers.</li>
+            <li><code>boolean</code>, which stores true and false.</li>
+            <li><code>char</code>, which stores single characters using single quotes.</li>
+            <li><code>String</code>, which stores multiple characters using double quotes.</li>
+            </ul>
+          </article>
+        </section>
+        
+        <section class="main-section" id="Manipulating_Variables">
+          <header>Manipulating Variables</header>
+          <article>
+            <p>
+              We can operate on variables and compare them.
+            </p>
+            <p>
+              The order of operations: parentheses -> multiplication -> division -> modulo -> addition -> subtraction.
+            </p>
+          </article>
+        </section>
+        
+        <section class="main-section" id="Classes">
+          <header>Classes</header>
+          <article>
+            <p>
+              A class is the set of instructions that describe how an instance can behave and what information it contains.
+            </p>
+            <p>
+              Java has pre-defined classes such as System, which we’ve used in logging text to our screen, but we also need to write our own classes for the custom needs of a program.
+            </p>
+          </article>
+        </section>
+        </main>
+</body>
+</html>
